@@ -299,6 +299,12 @@
       "file_name": "okdna_esc_restart.png",
       "width": 1600,
       "height": 900
+    },
+    {
+      "id": 40,
+      "file_name": "okdna_action_dialog_calamity.png",
+      "width": 1600,
+      "height": 900
     }
   ],
   "annotations": [
@@ -328,9 +334,7 @@
         26
       ],
       "area": 702,
-      "iscrowd": 0,
-      "ignore": 0,
-      "segmentation": []
+      "iscrowd": 0
     },
     {
       "id": 3,
@@ -343,9 +347,7 @@
         27
       ],
       "area": 729,
-      "iscrowd": 0,
-      "ignore": 0,
-      "segmentation": []
+      "iscrowd": 0
     },
     {
       "id": 4,
@@ -1099,6 +1101,19 @@
       ],
       "area": 992,
       "iscrowd": 0
+    },
+    {
+      "id": 57,
+      "image_id": 40,
+      "category_id": 57,
+      "bbox": [
+        1014,
+        548,
+        24,
+        24
+      ],
+      "area": 576,
+      "iscrowd": 0
     }
   ],
   "categories": [
@@ -1380,6 +1395,11 @@
     {
       "id": 56,
       "name": "esc_restart_check_btn",
+      "supercategory": ""
+    },
+    {
+      "id": 57,
+      "name": "action_dialog_continue2",
       "supercategory": ""
     }
   ]
